@@ -5,8 +5,9 @@ on:
     branches: [ "dev" ]
   pull_request:
     branches: [ "dev" ]
- jobs:
-  build:
+
+jobs:
+ build:
     runs-on: ubuntu-latest
 
     strategy:
